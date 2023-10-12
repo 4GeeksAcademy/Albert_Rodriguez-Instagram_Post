@@ -1,0 +1,82 @@
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.post {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+}
+
+.fab.fa-html5 {
+  font-size: 3rem;
+  margin-right: 10px;
+}
+
+.fas.fa-ellipsis-v{
+  font-size: 2rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-header h4, .post-header p {
+  margin: 0;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+.post-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-container-icons {
+  display: flex;
+  align-items: left;
+}
+
+.left-container-icons i {
+  margin-right: 10px; /* Add space between the icons */
+  font-size: 1.5rem;
+}
+
+.bookmark-icon {
+  margin-left: auto;
+  font-size: 1.5rem;
+}
+.post-body p{
+  font-size: smaller;
+  padding: 5px;
+}
